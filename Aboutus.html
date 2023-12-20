@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ABOUT US</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id=wadahcontent>
+	<div id="header"></div>
+	<div id="navigasi">
+		<a href="index2.html">HOME</a>
+		<a href="Penemukomputer.html">PENEMU KOMPUTER</a>
+		<a href="Gallery.html">GALLERY</a>
+		<a href="CONTACT.html">CONTACT US</a>
+		<a href="Aboutus.html">ABOUT US</a>
+		<div id="date-time"></div>
+
+    <script>
+        function updateDateTime() {
+            var now = new Date();
+            var options = {
+                weekday: 'long',
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+                hour: 'numeric',
+                minute: 'numeric',
+                second: 'numeric',
+                timeZoneName: 'short'
+            };
+
+            var dateTimeString = now.toLocaleDateString('en-US', options);
+
+            document.getElementById('date-time').innerText = dateTimeString;
+        }
+
+        // Update date and time every second
+        setInterval(updateDateTime, 1000);
+
+        // Initial call to display date and time immediately
+        updateDateTime();
+    </script>
+</body>
+	</div>
+	<div id="content">
+		<h1>TENTANG PENEMUAN KOMPUTER</h1> 
+		<p>Sekitar 30 tahun setelah Pascal menemukan kalkulator otomatis, matematikawan Jerman bernama Gottfried Wilhelm Leibniz mengembangkan kalkulator sebelumnya dengan menambahkan sistem bilangan biner. Sistem tersebut membantu mesin untuk menangani perhitungan lebih mudah ketimbang sistem desimal. Leibniz juga menambahkan roda gigi untuk perhitungan perkalian dan pembagian. George Boole kemudian mengembangkan untuk matematika biner. Ilmuwan Inggris ini memakai sistem bilangan biner dalam menemukan tipe baru pada matematika yang kemudian dikenal dengan Aljabar Boolean dan Logika Boolean. Sementara itu, keberadaan komputer modern tidak lepas dari peran Charles Babbage.</p>
+
+        <p>Dalam bahan ajar Modul Tema 16: Dunia di Ujung Jari (Kemdikbud, 2020), dijelaskan bahwa matematikawan Inggris ini adalah penemu komputer pertama dengan karyanya Difference Engine No. 1. Ini adalah mesin penghitung dengan ukuran besar yang didesain pada tahun 1820-an. Alat ini adalah komputer mekanik yang mampu menjadi mesin penganalisa. Mesin ini adalah mesin pertama yang bisa diprogram oleh manusia.</p>
+
+        <p>Sebagai apresiasi atas karyanya, Babbage dinobatkan sebagai “Bapak Komputer”. Sejarah perkembangan komputer hingga saat ini telah mengalami perluasan bentuk hingga menjadi portabel seperti laptop, dan memiliki kemampuan untuk digunakan berbagi tujuan.</p>
+	<div id="footer">
+		<p>&copy; Copyrigt 2023 - Ibnu Rosyid [ NIM-231011700871]</p>
+	</div>
+	<div></div>
+</div>
+</body>
+</html>

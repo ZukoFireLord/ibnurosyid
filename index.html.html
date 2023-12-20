@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DESIGN LAYOUT</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id=wadahcontent>
+	<div id="header"></div>
+	<div id="navigasi">
+		<a href="index2.html">HOME</a>
+		<a href="Penemukomputer.html">PENEMU KOMPUTER</a>
+		<a href="Gallery.html">GALLERY</a>
+		<a href="CONTACT.html">CONTACT US</a>
+		<a href="Aboutus.html">ABOUT US</a>
+		<div id="date-time"></div>
+
+    <script>
+        function updateDateTime() {
+            var now = new Date();
+            var options = {
+                weekday: 'long',
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+                hour: 'numeric',
+                minute: 'numeric',
+                second: 'numeric',
+                timeZoneName: 'short'
+            };
+
+            var dateTimeString = now.toLocaleDateString('en-US', options);
+
+            document.getElementById('date-time').innerText = dateTimeString;
+        }
+
+        // Update date and time every second
+        setInterval(updateDateTime, 1000);
+
+        // Initial call to display date and time immediately
+        updateDateTime();
+    </script>
+</body>
+	</div>
+	<div id="content">
+		<h1>SEJARAH KOMPUTER</h1>
+		<img src="images/komputer2.jpg">
+		<p>Di tengah pesatnya perkembangan komputer dan teknologi saat ini, rasanya aneh ya jika menemui seseorang yang tidak tahu dan tidak pernah menggunakan komputer. Bagaimana tidak? Komputer sudah mengisi seluruh relung kehidupan kita, mulai dari digunakan untuk kerja, belajar, sampai bermain.</p>
+		<p>Komputer sekarang ini juga sudah lebih canggih, dilengkapi fitur dan aspek yang dapat kita manfaatkan dalam kehidupan sehari-hari. Tapi, kamu penasaran nggak sih, bagaimana komputer berkembang dari masa ke masa? Mungkin kamu juga pernah mengalami perubahannya, nih.</p>
+		<p>Oke, di artikel ini, akan dijawab sejarah perkembangan komputer secara ringkas. Sebelum itu, yuk kita definisikan dulu apa itu komputer,Sederhananya, komputer adalah sekumpulan alat elektronik yang saling bekerja sama untuk menerima data, mengolah data, dan menampilkan data untuk pengguna. Komputer pertama kali ditemukan oleh seorang ilmuwan dan matematikawan asal Inggris bernama Charles Babbage di tahun 1822.Nah, dari awal ditemukannya komputer tersebut, sebenarnya banyak ilmuwan lain yang turut berkontribusi dalam sejarah komputer. Contohnya seperti Lovelace dan Alan Turing. Jadi, bentuk dan fitur komputer yang sekarang kita gunakan pastinya akan jauh berbeda ya dengan komputer zaman dahulu. Perkembangan komputer dari pertama memasuki pasar hingga sekarang dapat dibagi menjadi lima generasi yang berbeda.</p>
+		<h3>PERKEMBANGAN KOMPUTER</h3>
+		<img src="images/PERKEMBANGANKOMPUTER.jpg"><p>Berlanjut dari penemuan Alan Turing, seorang ilmuwan Jerman, Konrad Zuse, membuat sebuah mesin yang terprogram secara lebih modern. Kontribusi Zuse “Plankalkül” (Plan Calculus) menjadi cikal bakal bahasa pemrograman. Dalam sistem ini, mesin dapat menerjemahkan konsep logika “dan, atau, tidak sama dengan”.</p>
+		<p>Sejarah terus berkembang pesat di berbagai belahan dunia. Di Amerika Serikat tepatnya di  Moore School of Electrical Engineering, University of Pennsylvania,  ada yang disebut dengan ENIAC (Electronic Numerical Integrator And Computer). Lalu, dilanjutkan dengan perkembangan EDVAC (Electronic Discrete Variable Automatic Computer). Sementara itu, di era yang sama, di Inggris terdapat sebuah mesin yang disebut EDSAC (Electronic Delay Storage Automatic Calculator).Sebuah perjalanan panjang yang berasal dari rasa keingintahuan dan ilmu pengetahuan, ya, gengs. Kembali ke pertanyaan, “siapa penemu komputer”, semua ilmuwan hebat ini berkontribusi besar terhadap penemuan komputer dan kenyamanan hidup yang kita nikmati hari ini.</p>
+		<h3>VIDIO SEJARAH KOMPUTER</h3>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/l2cW2n6egvM?si=YxMxvPjQAYXh1dsH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	</div>
+	<div id="footer">
+		<p>&copy; Copyrigt 2023 - Ibnu Rosyid [ NIM-231011700871]</p>
+	</div>
+	<div></div>
+</div>
+</body>
+</html>

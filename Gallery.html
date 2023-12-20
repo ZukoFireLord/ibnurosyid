@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>GALLERY</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id=wadahcontent>
+	<div id="header"></div>
+	<div id="navigasi">
+		<a href="index2.html">HOME</a>
+		<a href="Penemukomputer.html">PENEMU KOMPUTER</a>
+		<a href="Gallery.html">GALLERY</a>
+		<a href="CONTACT.html">CONTACT US</a>
+		<a href="Aboutus.html">ABOUT US</a>
+		<div id="date-time"></div>
+
+    <script>
+        function updateDateTime() {
+            var now = new Date();
+            var options = {
+                weekday: 'long',
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+                hour: 'numeric',
+                minute: 'numeric',
+                second: 'numeric',
+                timeZoneName: 'short'
+            };
+
+            var dateTimeString = now.toLocaleDateString('en-US', options);
+
+            document.getElementById('date-time').innerText = dateTimeString;
+        }
+
+        // Update date and time every second
+        setInterval(updateDateTime, 1000);
+
+        // Initial call to display date and time immediately
+        updateDateTime();
+    </script>
+	</div>
+	<div>
+	<div id="contentGALERY">
+		<h1>GALLERY</h1>
+	<div class="Gallery">
+		<img src="images/komputer3.jpg">
+	<div class="Gallery">
+		<img src="images/komputer4.jpg">
+	<div class="Gallery">
+		<img src="images/komputer5.jpg">
+	<div class="Gallery">
+		<img src="images/komputer9.jpg">
+	<div class="Gallery">
+		<h3>BEBERAPA GALERY KOMPUTER</h3>
+	</div>
+	<div id="footer">
+		<p>&copy; Copyrigt 2023 - Ibnu Rosyid [ NIM-231011700871]</p>
+	</div>
+	<div></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+
+		body{
+			background-color: blueviolet;
+			background-image: url("images/bg.jpg");
+		}
+		#wadahcontent{
+			width: 1000px;
+			margin-left: auto;
+			margin-right: auto;
+
+		}
+		#header{
+			height: 400px;
+			background-color: white;
+			background-image: url("images/BANNERNEWWSEJARAH.jpg");
+			background-size: 100% 100%;
+		}
+		#navigasi{
+			height: 70px;
+			background-color: lightsteelblue;
+			padding-top: 30px;
+			text-align: center;
+		}
+		#navigasi a{
+			font-size: 25px;
+			padding: 10px;
+
+		}
+		#date-time{
+			font-size: 20px;
+			margin-top: 20px;
+			color: rebeccapurple;
+		}
+		#content{
+			height: auto;
+			background-color: white;
+			padding: 5px 15px 5px 15px;
+		}
+		!!/GALLERY
+		#contentGalery{
+			height: 700;
+			right: 700; 
+			background-color: white;
+			padding: 5px 15px 5px 15px;
+		}
+		#contentGALERY{
+			height: auto;
+			right: auto;
+			background-color: white;
+			padding: 5px 15px 5px 15px;
+		}
+		#FooterGALERY{
+			height: 70px;
+			background-color: black;
+			padding-top: 30px;
+			margin-bottom: auto;
+		}
+		#h1GALERY{
+			color: rebeccapurple;
+			text-align: justify;
+		}
+		#Gallery{
+			float: left;
+			margin: 10px;
+		}
+		#content h1{
+			color: rebeccapurple;
+		}
+		#content h3{
+			color: rebeccapurple;
+		}
+		#content p{
+			font-family: initial;
+			font-size: 18px;
+			text-align: justify;  
+			color: black;
+		}
+		img{
+			width: 300px;
+			padding-right: 10px;
+			padding-left: 10px;
+			padding: 10px;
+			float: right;
+			float: left;
+		}
+
+		.images{
+			float:left ;
+			margin: 5px;
+		}
+		#footer{
+			height: 70px;
+			background-color: black;
+			padding-top: 30px;
+		}
+		#footer p{
+			color: white;
+			text-align: center;
+
+		}

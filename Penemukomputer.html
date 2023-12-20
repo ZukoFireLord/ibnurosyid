@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PENEMU KOMPUTER</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id=wadahcontent>
+	<div id="header"></div>
+	<div id="navigasi">
+		<a href="index2.html">HOME</a>
+		<a href="Penemukomputer.html">PENEMU KOMPUTER</a>
+		<a href="Gallery.html">GALLERY</a>
+		<a href="CONTACT.html">CONTACT US</a>
+		<a href="Aboutus.html">ABOUT US</a>
+		<div id="date-time"></div>
+
+    <script>
+        function updateDateTime() {
+            var now = new Date();
+            var options = {
+                weekday: 'long',
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+                hour: 'numeric',
+                minute: 'numeric',
+                second: 'numeric',
+                timeZoneName: 'short'
+            };
+
+            var dateTimeString = now.toLocaleDateString('en-US', options);
+
+            document.getElementById('date-time').innerText = dateTimeString;
+        }
+
+        // Update date and time every second
+        setInterval(updateDateTime, 1000);
+
+        // Initial call to display date and time immediately
+        updateDateTime();
+    </script>
+	</div>
+	<div id="content">
+		<h1>PENEMU KOMPUTER</h1>
+		<img src="images/charlesbage.jpg">
+		<p align="justify" align="center">Charles Babbage memang sering kali disebut sebagai penemu komputer. Di balik itu, ada beberapa nama ilmuwan hebat lain yang berjasa terhadap sejarah perkembangan komputer.</p>
+		<p align="justify">Mulai dari komputer berukuran raksasa yang memenuhi satu ruangan hingga kini kita kenal gadget laptop, sejarah komputer memang cukup panjang, gengs. Kalau kamu mencari siapa penemu komputer pertama, Google akan memberikan beberapa nama ilmuwan hebat. Namun, yang menjadi sorotan utama nih, Charles Babbage, banyak disebut oleh beberapa sumber sebagai penemu komputer pertama. Siapa penemu yang sebenarnya dan bagaimana, sih, sejarah komputer dari masa ke masa?</p>
+		<h3>Siapa Penemu Komputer?</h3>
+		<p align="justify">Charles Babbage, Ada Lovelace, dan Alan Turing, masing-masing memiliki kontribusinya dalam sejarah komputer. Tiap penemuan berpengaruh terhadap perkembangan penemuan lain. Yuk, simak ceritanya berikut!</p>
+		<p align="justify">Charles Babbage
+        Merupakan seorang ilmuwan dan matematikawan Inggris, Charles Babbage memulai penemuannya dari rasa keingintahuan untuk memecahkan perhitungan matematika secara lebih cepat. Awalnya, Babbage membuat sebuah kalkulator kecil untuk hitungan matematika hingga delapan desimal. Lalu, pada 1823 pemerintah Inggris memberikan bantuan finansial untuk mengembangkan alat serupa, namun lebih canggih.</p>
+        <img src="images/enginecharless.jpg">
+        <p align="justify">Dari sini, Difference Engine pertama kali dikenal. Mesin ini mampu menghitung hingga 20 desimal untuk soal penambahan dan pengurangan matematika sederhana. Cara kerjanya bersifat manual, yaitu dengan menarik tuai angka 1-9. Digit-digit tersebut nantinya menghasilkan hitungan sesuai dengan persoalan yang diberikan.</p>
+        <p align="justify">Lanjut dari penemuan tersebut, Babbage mengembangkan Analytical Engine. Mesin ini dapat menyimpan data sebanyak 1.000 angka dalam 50 digit, yang menjadikannya sebagai <b>komputer</b> dengan kapasitas penyimpanan terbesar di era itu. Memiliki empat komponen penting, cara kerja mesin ini merupakan awal dari komputer digital saat ini. Di dalamnya mencakup mesin input, pemrosesan (serupa dengan CPU), memori penyimpanan data, dan konsep pencetakan data.</p>
+        <h3>Ada Lovelace</h3>
+        <p align="justify">Kontribusi Lovelace berkesempatan untuk menerjemahkan konsep Analytical Engine milik Babbage ke Bahasa Prancis bersama dengan insinyur dan matematikawan Italia, Luigi Federico Menabrea. Dari hasil pemikiran tersebut, Lovelace menjelaskan potensi mesin Babbage untuk mengerjakan perhitungan yang lebih rumit dengan konsep angka <b>Bernoulli</b>. Selain itu, ia juga menjelaskan tentang potensi mesin Babbage dalam memproses hal selain dalam bentuk angka, seperti huruf alfabet.</p>
+        <h3>Alan Turing</h3>
+        <img src="images/ALANTURING.jpg">
+        <p align="justify">Pada 1936, Alan Turin membuat sebuah konsep penelitian tentang sebuah mesin yang dapat menjawab semua pertanyaan, bahkan bukan yang berkaitan dengan hitungan aritmatika. “On Computable Numbers, with An Application to The Entscheidungsproblem”, menjabarkan konsep algoritma mutakhir kala itu beserta perhitungan mekanik untuk pemecahan masalah yang diberikan.</p>
+        <p align="justify">Mesin-mesin terdahulu, hanya mampu menjawab pertanyaan seputar angka dan matematika. Namun, The Universal Turing Machine dapat menerjemahkan berbagai persoalan ke dalam logika dan huruf. Mesin buatan Alan Turing ini berhasil menjawab kode Enigma sebagai simbol komunikasi militer Jerman saat Perang Dunia II. Sistem kerja mesin Turing mampu membaca strategi perang yang direncanakan. Pada akhirnya, hal ini berdampak pada keselamatan ribuan jiwa korban perang saat itu.</p>
+        <p align="justify">*psst kalau kamu masih penasaran gimana cerita lengkap tentang Alan Turing, coba, deh, tonton The Imitation Game (2014) dengan pemeran utamanya, Benedict Cumberbatch (yes, the Doctor Strange from Marvel, he is).</p>
+	</div>
+	<div id="footer">
+		<p>&copy; Copyrigt 2023 - Ibnu Rosyid [ NIM-231011700871]</p>
+	</div>
+	<div></div>
+</div>
+</body>
+</html>
